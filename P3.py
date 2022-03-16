@@ -170,7 +170,7 @@ def my_cv_plot_fix_c(k,cv_grid_stat):
     return df
 
 for d in range(1,6):
-    my_cv_plot(d,cv_grid_stat)
+    my_cv_plot_fix_d(d,cv_grid_stat)
     
 min_err = 1<<32
 min_r, min_c = -1,-1
